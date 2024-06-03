@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	list-style: none;
+}
+
+.header{
+	width: 100%;
+	
+	display: flex;
+	justify-content: space-between;
+	display: flex;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+.header-left{
+	display: flex;
+	padding-left: 50px;
+}
+.header-right{
+	padding-right: 30px;
+}
+.menu>ul{
+	display: flex;
+}
+.menu>ul>li{
+	padding: 29px 20px;
+}
+
+.megaMenu{
+	width: 100%;
+	position: absolute;
+	height: 300px;
+	background: lightblue;
+	left: 0px;
+	display: none;
+	top: 100%;
+}
+.megaMenuInner{
+	max-width: 1320px;
+	margin: auto;
+	border: 1px solid red;
+}
+.menu>ul>li:hover .megaMenu{
+	display: block;
+}
+.header-right>ul{
+	display: flex;
+}
+.header-right>ul>li{
+	padding: 25px 20px;
+}
+.micon{
+	display: none;
+}
+
+.top-story{
+	width: 100%;
+	padding: 40px 0px;
+}
+
+.top-story-mid{
+	max-width: 1320px;
+	margin: auto;
+}
+.top-story-mid h1{
+	font-size: 55px;
+}
+.top-story-mid h3{
+	padding-top: 30px;
+	font-size: 25px;
+	padding-bottom: 30px;
+}
+
+.top-story-rows{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-story-left{
+	flex-basis: 48%;
+}
+.top-story-right{
+	flex-basis: 48%;
+}
+.top-story-left img{
+	width: 100%;
+}
+.top-story-left h4{
+	text-decoration: underline;
+	font-size: 25px;
+	padding: 10px 0px;
+	font-weight: normal;
+}
+.top-story-left h2{
+	font-size: 36px;
+}
